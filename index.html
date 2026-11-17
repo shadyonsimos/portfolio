@@ -1,0 +1,371 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<script>try{history.scrollRestoration="manual"}catch(e){}document.documentElement.classList.add("static");</script>
+<title>Shady Onsimos — Senior Video Editor and Videographer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500&display=swap">
+<style>
+:root{--bg:#F5F5F7;--card:#FFFFFF;--ink:#1D1D1F;--mute:#6E6E73;--line:#D2D2D7;--blue:#0071E3;--glass:rgba(245,245,247,.72);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0A0D14;--card:#161B26;--ink:#F5F5F7;--mute:#9A9AA3;--line:#2A303D;--blue:#2997FF;--glass:rgba(10,13,20,.72)}}
+:root[data-theme="dark"]{--bg:#0A0D14;--card:#161B26;--ink:#F5F5F7;--mute:#9A9AA3;--line:#2A303D;--blue:#2997FF;--glass:rgba(10,13,20,.72)}
+html{scroll-padding-top:calc(56px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.5 "Instrument Sans",system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;margin:0;letter-spacing:-.03em}
+a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+/* nav */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 max(20px,calc((100% - 1100px)/2));background:var(--glass);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--line)}
+nav b{font:800 1.05rem "Bricolage Grotesque",sans-serif}
+nav div{display:flex;gap:22px;font-size:.9rem}
+nav a{color:var(--ink);text-decoration:none;opacity:.8}nav a:hover{opacity:1}
+@media (max-width:520px){nav div a:not(:last-child){display:none}}
+/* hero */
+#hero{height:230vh;position:relative}
+.stick{position:sticky;top:calc(56px + env(safe-area-inset-top,0px));height:calc(100svh - 56px);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 20px;overflow:hidden}
+.orb{position:absolute;inset:-20%;background:radial-gradient(40% 40% at calc(25% + 30%*var(--p,0)) 35%,rgba(41,151,255,.35),transparent 70%),radial-gradient(35% 35% at calc(80% - 30%*var(--p,0)) 70%,rgba(60,196,189,.30),transparent 70%);filter:blur(30px);z-index:0}
+.hero-in{position:relative;z-index:1;transform:scale(calc(1 - .45*var(--p,0))) translateY(calc(-10vh*var(--p,0)));opacity:calc(1.15 - 1.3*var(--p,0));animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}}
+h1{font-weight:800;font-size:clamp(3.4rem,15vw,10rem);line-height:.9}
+.role{font-size:clamp(1.1rem,3vw,1.7rem);margin:18px 0 0;color:var(--mute)}
+.cta{margin-top:26px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;border-radius:980px;padding:10px 22px;font-weight:500;font-size:.98rem;border:0;cursor:pointer}
+.btn.alt{background:transparent;color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue)}
+/* statement */
+.say{max-width:1000px;margin:0 auto;padding:12vh 20px}
+.say p{font:800 clamp(1.9rem,5.4vw,3.6rem)/1.12 "Bricolage Grotesque",sans-serif;letter-spacing:-.03em;margin:0}
+.say span{opacity:.18;transition:opacity .25s}.say span.lit{opacity:1}
+/* stats */
+.stats{max-width:1100px;margin:0 auto;padding:0 20px 14vh;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:36px}
+.stats strong{display:block;font:800 clamp(3rem,8vw,5.5rem)/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.04em}
+.stats span{color:var(--mute)}
+/* sections */
+.sec{max-width:1100px;margin:0 auto;padding:6vh 20px 10vh}
+.sec h2{font-size:clamp(1.9rem,4.5vw,3rem);line-height:1;max-width:14ch}
+.sec .sub{color:var(--mute);font-size:1.15rem;max-width:46ch;margin:14px 0 40px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.tile{transition:transform .7s cubic-bezier(.2,.7,.2,1),opacity .7s;position:relative;border:0;padding:0;border-radius:28px;overflow:hidden;cursor:pointer;color:#fff;text-align:left;aspect-ratio:16/9;background:#111;
+transform:scale(calc(.9 + .1*var(--k,1)));opacity:calc(.2 + .8*var(--k,1));will-change:transform,opacity}
+.tile.wide{grid-column:span 2;aspect-ratio:16/9}
+.poster{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .7s cubic-bezier(.2,.7,.2,1);
+background-color:hsl(var(--h) 45% 14%);background-image:radial-gradient(60% 70% at 15% 10%,hsl(var(--h) 85% 55%),transparent 70%),radial-gradient(55% 60% at 95% 100%,hsl(calc(var(--h) + 45) 75% 42%),transparent 70%)}
+.poster video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.tile.vert .poster,.tile.vert:hover .poster{filter:blur(26px) brightness(.7);transform:scale(1.3)}
+.vframe{position:absolute;top:0;bottom:0;left:50%;transform:translateX(-50%);height:100%;aspect-ratio:9/16;background:#000;box-shadow:0 0 40px rgba(0,0,0,.45)}
+.poster img.pvimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}.vframe img.pvimg{width:100%;height:100%;object-fit:cover;display:block}
+.vframe video{width:100%;height:100%;object-fit:cover;display:block}
+.shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,0) 78%)}
+.cap{position:absolute;left:0;right:60px;bottom:0;padding:20px 22px}
+.cap h3{font-size:clamp(1.1rem,1.8vw,1.45rem);line-height:1.1}
+.cap p{margin:6px 0 0;font-size:.84rem;line-height:1.35;opacity:.9;max-width:52ch}
+.cap p,#dd{white-space:pre-line}
+.plus{position:absolute;right:20px;bottom:20px;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.85);color:#111;display:grid;place-items:center;font-size:1.3rem;transition:transform .3s}
+.tile:hover .plus{transform:rotate(90deg)}
+@media (max-width:760px){.grid{grid-template-columns:1fr}.tile,.tile.wide{grid-column:auto;aspect-ratio:16/9}}
+/* about */
+.about{max-width:1100px;margin:0 auto;padding:0 20px 12vh;display:grid;grid-template-columns:1fr 2fr;gap:36px}
+.about h2{font-size:clamp(2.2rem,6vw,4rem);line-height:1}
+.about p{font-size:1.15rem;margin:0 0 16px;max-width:60ch}
+.about .note{color:var(--mute);font-size:1rem}
+@media (max-width:760px){.about{grid-template-columns:1fr;gap:14px}}
+/* categories */
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:34px}
+.cat{border:0;border-radius:28px;padding:26px;min-height:200px;text-align:left;color:#fff;cursor:pointer;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;opacity:.62;transform:scale(.97);transition:opacity .35s,transform .35s,box-shadow .35s;
+background-color:hsl(var(--h) 45% 14%);background-image:radial-gradient(70% 80% at 10% 0%,hsl(var(--h) 85% 55%),transparent 70%),radial-gradient(60% 70% at 100% 100%,hsl(calc(var(--h) + 45) 75% 42%),transparent 70%)}
+.cat:hover{opacity:.9}
+.cat[aria-pressed="true"]{opacity:1;transform:scale(1);box-shadow:0 0 0 3px var(--bg),0 0 0 6px var(--blue)}
+.cat small{font-size:.9rem;opacity:.85}.cat h3{font-size:clamp(1.4rem,2.6vw,1.9rem);line-height:1.05;margin:4px 0 8px}.cat p{margin:0;font-size:.95rem;opacity:.9}
+.pane{margin-bottom:9vh}
+@media (max-width:980px){.cats{grid-template-columns:repeat(2,1fr)}}@media (max-width:760px){.cats{grid-template-columns:1fr}.cat{min-height:150px}}
+/* contact */
+.end{text-align:center;padding:12vh 20px 16vh}
+.end h2{font-size:clamp(2.6rem,9vw,6.5rem);line-height:.95;margin-bottom:34px}
+/* modal */
+dialog{border:0;border-radius:24px;padding:0;width:min(880px,94vw);background:var(--card);color:var(--ink);overflow:hidden}
+dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(6px)}
+.frame{aspect-ratio:16/9;background:#000}.frame iframe{width:100%;height:100%;border:0}
+.dbody{padding:22px 26px 28px}.dbody h2{font-size:1.7rem}.dbody p{color:var(--mute);margin:8px 0 16px}
+.dbody .btn{margin:0 8px 8px 0}.tabs{margin-bottom:6px}.frame.tall{aspect-ratio:auto;height:min(78vh,700px);display:flex;justify-content:center;background:#000}.frame.tall video{width:auto!important;max-width:100%}.frame.tall iframe{height:100%;width:calc(min(78vh,700px)*9/16);max-width:100%}.fbl{display:inline-block;color:var(--mute);font-size:.88rem;margin:4px 0 0}
+.x{position:absolute;top:12px;right:12px;border:0;background:rgba(0,0,0,.55);color:#fff;border-radius:50%;width:36px;height:36px;font-size:1.2rem;cursor:pointer;z-index:2}
+html.static #hero{height:auto}html.static .stick{position:relative;top:0;height:auto;min-height:560px;padding:96px 20px}html.static .say{padding:80px 20px}html.static .stats{padding-bottom:96px}html.static .sec{padding:48px 20px 80px}html.static .end{padding:96px 20px 120px}html.static .about{padding-bottom:96px}html.static .pane{margin-bottom:72px}html.static .hero-in{transform:none;opacity:1}
+.reel{max-width:1100px;margin:0 auto;padding:6vh 20px 0}.reelbox{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:16/9;max-width:100%;background:#000;box-shadow:0 30px 70px -35px rgba(0,0,0,.5)}.reelbox video{width:100%;height:100%;object-fit:cover;display:block}.reelbox span{position:absolute;left:18px;bottom:18px;background:rgba(0,0,0,.55);color:#fff;font-size:.8rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;padding:8px 13px;border-radius:980px;backdrop-filter:blur(6px)}html.static .reel{padding-top:40px}.snd{position:absolute;right:16px;bottom:16px;display:flex;align-items:center;gap:8px;border:0;cursor:pointer;background:rgba(255,255,255,.9);color:#111;font:500 .85rem/1 "Instrument Sans",system-ui,sans-serif;padding:9px 14px 9px 11px;border-radius:980px}.snd svg{width:20px;height:20px}.snd .on{display:none}.snd[aria-pressed="true"] .on{display:inline}.snd[aria-pressed="true"] .off{display:none}html.static .frame.tall{height:640px;max-height:80svh}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-in{animation:none}*{transition:none!important}.tile,.hero-in{transform:none!important;opacity:1!important}.say span{opacity:1}}
+</style>
+
+<nav><b>Shady Onsimos</b><div><a href="#about">About</a><a href="#work" data-cat="evt">Events</a><a href="#work" data-cat="talk">Talking heads</a><a href="#work" data-cat="dip">Diplomatic</a><a href="#work" data-cat="hum">Humanitarian</a><a href="#contact">Contact</a></div></nav>
+
+<header id="hero"><div class="stick"><div class="orb"></div>
+  <div class="hero-in">
+    <h1>Shady<br>Onsimos</h1>
+    <p class="role">Senior Video Editor and Videographer</p>
+    <div class="cta"><a class="btn" href="#work">See the work</a><a class="btn alt" href="#contact">Get in touch</a></div>
+  </div></div></header>
+
+<section class="reel" aria-label="Showreel"><div class="reelbox"><video id="reelv" src="media/reel-full.mp4" muted loop playsinline autoplay preload="auto"></video><span>Showreel 2026</span><button type="button" class="snd" id="snd" aria-pressed="false" aria-label="Turn sound on"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path class="off" d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg><b>Sound on</b></button></div></section>
+<section class="say" id="say"><p id="say-p">I film and edit for embassies, ministries, NGOs, global pharmaceutical companies and brands, and I shoot, edit and color every project myself.</p></section>
+
+<section class="stats">
+  <div><strong data-n="10">0</strong><span>years of professional experience</span></div>
+  <div><strong data-n="11" id="count">0</strong><span>featured projects below</span></div>
+</section>
+
+<section class="about" id="about">
+  <h2>About</h2>
+  <div>
+    <p>I'm Shady, a senior video editor and videographer with 10 years of experience. I have filmed and edited for embassies, NGOs and global pharmaceutical companies, and I edit online for clients worldwide on Fiverr.</p>
+    <p class="note">This is a selective portfolio, and more projects are being added.</p>
+  </div>
+</section>
+
+<section class="sec" id="work">
+  <div class="cats" id="cats" role="group" aria-label="Choose which category to show first"></div>
+  <div id="panes">
+  <div class="pane" id="p-evt"><p class="sub">Event promos, launch teasers and brand films for clients in the USA, Australia and Europe.</p><div class="grid" id="g-evt"></div></div>
+  <div class="pane" id="p-talk"><p class="sub">Podcast episodes, vertical reels with animated captions, and interview films.</p><div class="grid" id="g-talk"></div></div>
+  <div class="pane" id="p-dip"><p class="sub">Galas, forums and state visits, executed for Save the Children Egypt and diplomatic partners.</p><div class="grid" id="g-dip"></div></div>
+  <div class="pane" id="p-hum"><p class="sub">Films, workshops and documentation for children and youth programs.</p><div class="grid" id="g-hum"></div></div>
+  </div>
+</section>
+
+<section class="end" id="contact">
+  <h2>Let's work<br>together.</h2>
+  <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=shadi.onsimos@gmail.com" target="_blank" rel="noopener">Email me</a>
+  <a class="btn alt" href="https://wa.me/201227120955" target="_blank" rel="noopener">WhatsApp</a>
+</section>
+
+<dialog id="dlg">
+  <button class="x" id="close" aria-label="Close">&times;</button>
+  <div class="frame" id="frame" hidden></div>
+  <div class="dbody"><h2 id="dt"></h2><p id="dd"></p><div id="dl"></div></div>
+</dialog>
+
+<script>
+/* ===== EDIT YOUR CONTENT HERE =====
+   thumb  : preview image (a data: URI or an https image link). Leave "" for the colored poster.
+   preview: short muted looping video (mp4 link) that plays on hover. Leave "" to skip.        */
+const PROJECTS = [
+ {g:"evt",wide:false,title:"Super Bowl Event Promo",desc:"Promo video made mostly from still photos.\nRole: Video Editor",thumb:"media/superbowl.jpg",preview:"media/superbowl-pv.mp4",
+  links:[["Watch video","media/superbowl-full.mp4"]]},
+ {g:"evt",wide:false,vertical:true,pv:true,title:"The Grand Ball, Paddock People",desc:"Teaser and promo for a luxury motorsport gala, for Paddock People · Melbourne.\nRole: Video Editor",thumb:"media/gball.jpg",preview:"media/gball-pv.mp4",
+  links:[["Watch video 1","media/gball-full.mp4"],["Watch video 2","media/paddock-full.mp4"]]},
+ {g:"evt",wide:false,title:"Peter & Nicole Golf Tournament",desc:"Event promo plus a vertical short for social media.\nRole: Video Editor",thumb:"media/pn.jpg",preview:"media/pn-pv.mp4",
+  links:[["Watch video 1","media/pn-full.mp4"],["Watch video 2","media/pnshort-full.mp4"]]},
+ {g:"evt",wide:false,title:"PF Golf Tournament Promo",desc:"Promo video made entirely from still photos.\nRole: Video Editor",thumb:"media/golf.jpg",preview:"media/golf-pv.mp4",
+  links:[["Watch video","media/golf-full.mp4"]]},
+ {g:"evt",wide:false,title:"Cabinets by Design: Hollis Kitchen",desc:"Kitchen reveal promo made entirely from still photos.\nRole: Video Editor",thumb:"media/cbd1.jpg",preview:"media/cbd1-pv.mp4",
+  links:[["Watch video","media/cbd1-full.mp4"]]},
+ {g:"evt",wide:false,title:"Cabinets by Design: Pepperall Kitchen",desc:"Kitchen reveal promo made entirely from still photos.\nRole: Video Editor",thumb:"media/cbd2.jpg",preview:"media/cbd2-pv.mp4",
+  links:[["Watch video","media/cbd2-full.mp4"]]},
+ {g:"evt",wide:false,vertical:true,pv:true,title:"Tekno & Friends",desc:"Animated concert promo, Melbourne.\nRole: Video Editor",thumb:"media/tekno.jpg",preview:"media/tekno-pv.mp4",
+  links:[["Watch video","media/tekno-full.mp4"]]},
+ {g:"evt",wide:false,title:"MLB ASG Event Promo",desc:"Promo video made entirely from still photos.\nRole: Video Editor",thumb:"media/mlb.jpg",preview:"media/mlb-pv.mp4",
+  links:[["Watch video","media/mlb-full.mp4"]]},
+ {g:"talk",wide:true,title:"Spouseology Podcast",desc:"Multicam podcast episodes with branded frames, for Silo Space Media.\nRole: Video Editor",thumb:"media/spouse.jpg",preview:"media/spouse-pv.mp4",
+  links:[["Watch video","media/spouse-full.mp4"]]},
+ {g:"talk",wide:false,vertical:true,pv:true,title:"World Cup Talking-Head Reel",desc:"Vertical reel with animated captions, for Silo Space Media.\nRole: Video Editor",thumb:"media/santiwc.jpg",preview:"media/santiwc-pv.mp4",
+  links:[["Watch video","media/santiwc-full.mp4"]]},
+ {g:"talk",wide:false,vertical:true,pv:true,title:"Realtor Talking-Head Videos",desc:"Talking-head videos for a real estate agent.\nRole: Video Editor",thumb:"media/realtor.jpg",preview:"media/realtor-pv.mp4",
+  links:[["Watch video 1","media/ep3-full.mp4"],["Watch video 2","media/ep4-full.mp4"]]},
+ {g:"talk",wide:false,title:"Captain's Ball 2026",desc:"Documentary film of the event.\nRole: Video Editor",thumb:"media/cball.jpg",preview:"media/cball-pv.mp4",
+  links:[["Watch video","media/cball-full.mp4"]]},
+ {g:"talk",wide:false,title:"Firefighters Foundation Interview",desc:"Peer-support interview film for the Professional Fire Fighters of Massachusetts Foundation.\nRole: Video Editor",thumb:"media/pffm.jpg",preview:"media/pffm-pv.mp4",
+  links:[["Watch video","media/pffm-full.mp4"]]},
+ {g:"dip",wide:false,title:"Embassy of France in Egypt",desc:"Lead visual specialist for the high-level diplomatic gala at the Ambassador's Residence (2026).\nRole: Videographer, Video Editor",thumb:"media/embassy.jpg",preview:"media/embassy2-pv.mp4",
+  links:[["Watch video","media/embassy-full.mp4"]]},
+ {g:"dip",wide:false,title:"Consulate General of France, Alexandria",desc:"Documentation of the Regional Partnership Forum at Institut Français d'Égypte (2025).\nRole: Videographer, Video Editor",thumb:"media/consulate.jpg",preview:"media/consulate2-pv.mp4",
+  links:[["Watch video","media/consulate-full.mp4"]]},
+ {g:"dip",wide:false,pv:true,vertical:true,title:"UNHCR - Canadian Embassy Damietta Field Visit",desc:"(2026)\nRole: Videographer, Video Editor",thumb:"media/damietta.jpg",preview:"media/damietta-pv.mp4",
+  links:[["Watch video","media/damietta-full.mp4"]]},
+ {g:"dip",wide:false,pv:true,vertical:true,title:"UNHCR - Canadian Embassy Alexandria Field Visit",desc:"(2026)\nRole: Videographer, Video Editor",thumb:"media/alex.jpg",preview:"media/alex-pv.mp4",
+  links:[["Watch video","media/alex-full.mp4"]]},
+ {g:"hum",wide:false,title:"UNICEF Egypt: Justice for Children",desc:"Documentation of the Justice for Children program with the Ministry of Justice.",thumb:"media/unicef2.jpg",preview:"media/unicef2-pv.mp4",
+  links:[["Watch video","https://www.youtube.com/watch?v=C0V8kJkYcdQ"]]},
+ {g:"hum",wide:false,title:"Tdh Egypt and Aramex Experience",desc:"Documentary on vocational training as an alternative to detention for youth.",thumb:"media/tdh2.jpg",preview:"media/tdh2-pv.mp4",
+  links:[["Watch video","https://www.youtube.com/watch?v=UnR2LSVYyKw"]]},
+ {g:"hum",wide:true,title:"Education Without Child Labor",desc:"National awareness film made to amplify youth voices on the right to education.",thumb:"",preview:"",
+  links:[["Watch video","https://www.facebook.com/reel/1190157116610146"]]}
+];
+
+/* ==================================== */
+const $=id=>document.getElementById(id);
+const clamp=(v,a=0,b=1)=>Math.min(b,Math.max(a,v));
+const RM=matchMedia("(prefers-reduced-motion:reduce)").matches;
+const TOUCH=matchMedia("(hover:none) and (pointer:coarse)").matches;const touchTiles=[];
+const drv=u=>{const m=u.match(/drive\.google\.com\/file\/d\/([\w-]+)/);return m?"https://drive.google.com/file/d/"+m[1]+"/preview":null};
+const yt=u=>{try{const x=new URL(u);if(x.hostname.includes("youtube.com")&&x.searchParams.get("v"))return"https://www.youtube.com/embed/"+x.searchParams.get("v")}catch(e){}return null};
+
+const fb=u=>{try{const x=new URL(u);if(!x.hostname.endsWith("facebook.com"))return null;
+  const h=encodeURIComponent(u.split("?")[0]),reel=/\/(reel|share\/r)\//.test(x.pathname),vid=/\/(share\/v|videos?|watch)/.test(x.pathname);
+  if(reel||vid)return{src:"https://www.facebook.com/plugins/video.php?href="+h+"&show_text=false&width=560",fb:u};
+  return{src:"https://www.facebook.com/plugins/post.php?href="+h+"&show_text=true&width=500",tall:true,fb:u}}catch(_){}return null};
+const emb=l=>{if(/\.mp4$/.test(l[1]))return{video:l[1]};const y=yt(l[1]);if(y)return{src:y+"?rel=0&playsinline=1",fb:l[1],site:"YouTube"};const d=drv(l[1]);if(d)return{src:d};return fb(l[1])};
+/* only ONE tile preview plays at a time: the hovered one, or the one nearest the middle of the screen */
+let hoverTile=null;const previewTiles=[];
+function pickActive(){} /* tile previews are driven only by the hover controller further down */
+/* tiles */
+const counts={dip:0,hum:0,evt:0,talk:0};
+PROJECTS.forEach(p=>counts[p.g]++);
+const seen={dip:0,hum:0,evt:0,talk:0};
+PROJECTS.forEach((p,i)=>{
+  const idx=seen[p.g]++, n=counts[p.g];
+  const t=document.createElement("button");
+  t.className="tile"+((p.wide!==undefined?p.wide:(idx%3===0||(idx===n-1&&idx%3===1)))?" wide":"");
+  const hue=({dip:205,hum:160,evt:275,talk:20})[p.g]+idx*14;
+  const poster=document.createElement("div");poster.className="poster";poster.style.setProperty("--h",hue);
+  if(p.thumb&&!p.preview)poster.style.backgroundImage=`url("${p.thumb}")`;else if(p.preview)poster.style.backgroundImage="none";
+  t.appendChild(poster);
+  let vf=null;if(p.vertical){t.classList.add("vert");vf=document.createElement("div");vf.className="vframe";t.appendChild(vf)}
+  /* phones: animated image loops (no video autoplay limits in apps) */
+  if(p.preview&&TOUCH){const im=document.createElement("img");im.className="pvimg";im.alt="";im.loading="lazy";im.decoding="async";im.dataset.still=p.thumb||"";im.dataset.anim=p.preview.replace(/\.mp4$/,".webp");im.src=im.dataset.still||im.dataset.anim;(vf||poster).appendChild(im);touchTiles.push(im);}
+  else if(p.preview){const v=document.createElement("video");v.src=p.preview;if(p.thumb)v.poster=p.thumb;v.muted=true;v.setAttribute("muted","");v.loop=true;v.playsInline=true;v.setAttribute("playsinline","");v.preload="none";(vf||poster).appendChild(v);previewTiles.push(t);}
+  t.insertAdjacentHTML("beforeend",'<div class="shade"></div><div class="cap"><h3></h3><p></p></div><div class="plus" aria-hidden="true">+</div>');
+  t.querySelector("h3").textContent=p.title;t.querySelector("p").textContent=p.desc;
+  t.setAttribute("aria-label",p.title+": play");t.onclick=()=>openDlg(p);
+  $("g-"+p.g).appendChild(t);
+});
+$("count").dataset.n=PROJECTS.length;
+
+/* categories */
+const CATS={evt:["Events and commercial","Event promos, launch teasers and brand films.",275],
+ talk:["Podcasts and talking heads","Podcasts, reels with animated captions and interview films.",20],
+ dip:["Diplomatic and ministerial","Galas, forums and state visits for embassies and ministries.",205],
+ hum:["Humanitarian and social impact","Films and workshops for children and youth programs.",160]};
+const DEFAULT_ORDER=Object.keys(CATS);
+let ready=false;const catBtns={};
+Object.entries(CATS).forEach(([k,[title,desc,h]])=>{
+  const pane=$("p-"+k),h2=document.createElement("h2");h2.textContent=title;pane.prepend(h2);
+  const b=document.createElement("button");b.className="cat";b.style.setProperty("--h",h);
+  b.innerHTML="<small></small><h3></h3><p></p>";
+  b.querySelector("small").textContent=counts[k]+(counts[k]===1?" project":" projects");
+  b.querySelector("h3").textContent=title;b.querySelector("p").textContent=desc;
+  b.onclick=()=>{showCat(k);pane.scrollIntoView({behavior:RM?"auto":"smooth",block:"start"})};
+  $("cats").appendChild(b);catBtns[k]=b;
+});
+function showCat(k){
+  Object.entries(catBtns).forEach(([c,b])=>b.setAttribute("aria-pressed",String(c===k)));
+  [k,...DEFAULT_ORDER.filter(c=>c!==k)].forEach(c=>$("panes").appendChild($("p-"+c)));
+  if(ready)update();
+}
+document.querySelectorAll("nav a[data-cat]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();showCat(a.dataset.cat);$("p-"+a.dataset.cat).scrollIntoView({behavior:RM?"auto":"smooth",block:"start"})}));
+showCat("evt");
+
+/* statement words */
+const sp=$("say-p");
+sp.innerHTML=sp.textContent.split(" ").map(w=>`<span>${w}</span>`).join(" ");
+const words=[...sp.children];
+
+/* scroll-linked motion */
+const hero=$("hero"),tiles=[...document.querySelectorAll(".tile")],say=$("say");
+let tick=false;
+function update(){
+  tick=false;if(RM)return;
+  const vh=innerHeight;
+  hero.style.setProperty("--p",clamp(-hero.getBoundingClientRect().top/(hero.offsetHeight-vh)).toFixed(3));
+  const lit=clamp((vh*.85-say.getBoundingClientRect().top)/(vh*.5))*words.length;
+  words.forEach((w,i)=>w.classList.toggle("lit",i<lit));
+  pickActive();
+}
+addEventListener("scroll",()=>{if(!tick){tick=true;requestAnimationFrame(update)}},{passive:true});
+addEventListener("resize",update);update();ready=true;
+/* static mode: when the page itself does not scroll (e.g. inside the phone app) drop the scroll-linked hero */
+function modeCheck(){const sh=(screen&&screen.height)||900;const st=TOUCH||innerHeight>1600||innerHeight>sh*1.15;document.documentElement.classList.toggle("static",st);if(st){hero.style.setProperty("--p",0);words.forEach(w=>w.classList.add("lit"))}}
+modeCheck();addEventListener("resize",modeCheck);
+/* always open at the top: the viewer may restore an old scroll or focus (e.g. a contact button) after load */
+/* phones: still images only, no animated previews (kept off on purpose) */
+if(false&&TOUCH&&"IntersectionObserver" in window){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{const im=e.target,on=e.isIntersecting&&e.intersectionRatio>.6;
+    const want=on?im.dataset.anim:(im.dataset.still||im.dataset.anim);if(im.getAttribute("src")!==want)im.src=want}),{threshold:[0,.6,.9],rootMargin:"-20% 0px -20% 0px"});
+  touchTiles.forEach(im=>io.observe(im));
+}
+/* showreel sound toggle (muted by default) */
+(function(){const v=document.getElementById("reelv"),b=document.getElementById("snd");if(!v||!b)return;
+  b.addEventListener("click",()=>{const on=v.muted;v.muted=!on;if(on){v.volume=1;if(v.paused)v.play().catch(()=>{})}
+    b.setAttribute("aria-pressed",String(on));b.setAttribute("aria-label",on?"Turn sound off":"Turn sound on");b.querySelector("b").textContent=on?"Sound off":"Sound on"})})();
+/* in-page links scroll without writing #section into the address (a saved #contact made every visit open at the bottom) */
+document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a||a.dataset.cat)return;const t=document.getElementById(a.getAttribute("href").slice(1));if(!t)return;e.preventDefault();t.scrollIntoView({behavior:RM?"auto":"smooth",block:"start"})});
+if(location.hash){try{history.replaceState(null,"",location.pathname+location.search)}catch(_){}}
+(function(){let user=false;const H=document.documentElement;H.style.scrollBehavior="auto";
+  const stop=()=>{user=true;H.style.scrollBehavior=""};
+  ["wheel","touchstart","keydown","pointerdown"].forEach(ev=>addEventListener(ev,stop,{passive:true,once:true}));
+  const top=()=>{if(user)return;const a=document.activeElement;if(a&&a!==document.body&&a.blur)a.blur();if(scrollY>0)scrollTo(0,0)};
+  addEventListener("focusin",top);addEventListener("scroll",top,{passive:true});
+  top();addEventListener("load",top);
+  setTimeout(()=>{removeEventListener("focusin",top);removeEventListener("scroll",top);if(!user)H.style.scrollBehavior=""},3000);})();
+if("IntersectionObserver" in window){
+  const ro=new IntersectionObserver(es=>es.forEach(e=>{e.target.style.setProperty("--k",e.isIntersecting?1:0)}),{threshold:0,rootMargin:"0px 0px -8% 0px"});
+  tiles.forEach(t=>{t.style.setProperty("--k",1);if(!TOUCH)ro.observe(t)});
+  const vo=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target.querySelector("video");if(!v||RM)return;
+    e.target._vis=e.isIntersecting&&e.intersectionRatio>.5;
+    if(e.target._vis){v.play().catch(()=>{})}else if(!v.paused)v.pause()}),{threshold:[0,.5,.75]});
+  /* some phone apps only allow video after the first touch: retry then */
+  const kick=()=>{const r=document.getElementById("reelv");if(r&&r.paused&&!RM)r.play().catch(()=>{});};
+  ["touchstart","pointerdown","scroll"].forEach(ev=>addEventListener(ev,kick,{passive:true}));
+  kick();setTimeout(kick,600);
+}
+
+/* DESKTOP TILE PREVIEWS: the only code that plays a tile preview.
+   Every tile shows its still frame. A preview plays only while the mouse moves over that tile,
+   and goes back to its first frame when the mouse leaves, the page scrolls or a project opens.
+   All previews download once into memory in the background (two at a time), so a hover plays at once.
+   Phones: still images only. */
+(function(){if(TOUCH||RM||!previewTiles.length)return;
+  let active=null;const vid=t=>t.querySelector("video");
+  const stop=t=>{const v=vid(t);t._want=false;if(!v.paused)v.pause();try{if(v.readyState>0)v.currentTime=0}catch(_){}};
+  const start=t=>{if(active===t)return;if(active)stop(active);active=t;t._want=true;const v=vid(t);
+    const go=()=>{if(t._want&&v.paused)v.play().catch(()=>{})};
+    if(v.readyState>=2)go();else{v.addEventListener("canplay",go,{once:true});if(v.preload==="none"){v.preload="auto";try{v.load()}catch(_){}}}};
+  const end=()=>{if(active){stop(active);active=null}};
+  previewTiles.forEach(t=>{t.addEventListener("pointermove",()=>start(t));t.addEventListener("pointerleave",()=>{if(active===t)end()});t.addEventListener("click",end)});
+  addEventListener("scroll",end,{passive:true});addEventListener("blur",end);
+  document.addEventListener("visibilitychange",()=>{if(document.hidden)end()});
+  if(!window.fetch||!window.URL)return;
+  const q=previewTiles.map(vid);let busy=0;
+  const next=()=>{while(busy<2&&q.length){const v=q.shift(),t=v.closest(".tile");busy++;
+    fetch(v.getAttribute("src")).then(r=>{if(!r.ok)throw 0;return r.blob()}).then(b=>{const u=URL.createObjectURL(b);
+      const swap=()=>{v.src=u;v.preload="auto";if(t._want)v.addEventListener("canplay",()=>{if(t._want)v.play().catch(()=>{})},{once:true})};
+      if(v.paused)swap();else v.addEventListener("pause",swap,{once:true})}).catch(()=>{}).finally(()=>{busy--;next()})}};
+  if(document.readyState==="complete")next();else addEventListener("load",next);
+})();
+/* pause the showreel while it is off screen so it does not compete with the hover previews */
+(function(){const r=document.getElementById("reelv");if(!r||RM||!("IntersectionObserver" in window))return;
+  new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){if(r.paused)r.play().catch(()=>{})}else if(!r.paused)r.pause()}),{threshold:.15}).observe(r)})();
+/* count-up */
+document.querySelectorAll("[data-n]").forEach(el=>{
+  const go=()=>{const end=+el.dataset.n,t0=performance.now();
+    (function s(t){const k=RM?1:clamp((t-t0)/1200);el.textContent=Math.round(end*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(s)})(t0)};
+  new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){go();o.disconnect()}},{threshold:.6}).observe(el);
+});
+
+/* modal */
+function openDlg(p){
+  const vids=p.links.filter(l=>emb(l));
+  const others=p.links.filter(l=>!vids.includes(l));
+  $("dt").textContent=p.title;$("dd").textContent=p.desc;
+  const dl=$("dl");
+  function btn(label,href,alt){const a=document.createElement("a");a.className="btn"+(alt?" alt":"");a.href=href;a.target="_blank";a.rel="noopener";a.textContent=label;return a}
+  function render(i){
+    dl.innerHTML="";
+    if(vids.length){
+      const m=emb(vids[i]);
+      $("frame").hidden=false;$("frame").classList.toggle("tall",!!(m.tall||(p.pv&&!/cbd|pn-|spouse|pffm/.test(m.video||""))));
+      $("frame").innerHTML=m.video?`<video src="${m.video}" controls autoplay playsinline style="width:100%;height:100%;display:block;background:#000"></video>`:`<iframe src="${m.src}" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write; web-share" allowfullscreen title="${p.title} - ${vids[i][0]}"></iframe>`;
+      if(vids.length>1){
+        const row=document.createElement("div");row.className="tabs";
+        vids.forEach((v,k)=>{const t=document.createElement("button");t.type="button";t.className="btn"+(k===i?"":" alt");t.setAttribute("aria-pressed",String(k===i));
+          t.textContent=v[0].replace(/^Watch\s+/i,"").replace(/^./,c=>c.toUpperCase());
+          t.onclick=()=>{if(k!==i)render(k)};row.appendChild(t)});
+        dl.appendChild(row);
+      }
+      if(m.fb){const a=btn("Not loading? Open on "+(m.site||"Facebook"),m.fb,true);a.className="fbl";dl.appendChild(a)}
+    }else{$("frame").hidden=true;$("frame").innerHTML=""}
+    others.forEach(l=>dl.appendChild(btn(l[0],l[1],!!vids.length)));
+  }
+  render(0);
+  $("dlg").showModal();
+}
+$("close").onclick=()=>$("dlg").close();
+$("dlg").addEventListener("close",()=>{$("frame").innerHTML=""});
+$("dlg").addEventListener("click",e=>{if(e.target===$("dlg"))$("dlg").close()});
+</script>
+
+
+</body></html>
+</body></html>
