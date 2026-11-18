@@ -1,6 +1,15 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <script>try{history.scrollRestoration="manual"}catch(e){}document.documentElement.classList.add("static");document.documentElement.setAttribute("data-theme","dark");</script>
 <title>Shady Onsimos — Senior Video Editor and Videographer</title>
+<meta name="description" content="Senior video editor and videographer with 10 years of experience, filming and editing for embassies, UN agencies, NGOs and brands.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shadyonsimos.github.io/portfolio/">
+<meta property="og:title" content="Shady Onsimos — Senior Video Editor and Videographer">
+<meta property="og:description" content="10 years filming and editing for embassies, UN agencies, NGOs and brands. Watch the work.">
+<meta property="og:image" content="https://shadyonsimos.github.io/portfolio/media/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://shadyonsimos.github.io/portfolio/media/og.jpg">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500&display=swap">
 <style>
 :root{--bg:#F5F5F7;--card:#FFFFFF;--ink:#1D1D1F;--mute:#6E6E73;--line:#D2D2D7;--blue:#0071E3;--glass:rgba(245,245,247,.72);
@@ -60,6 +69,19 @@ background-color:hsl(var(--h) 45% 14%);background-image:radial-gradient(60% 70% 
 .plus{position:absolute;right:20px;bottom:20px;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.85);color:#111;display:grid;place-items:center;font-size:1.3rem;transition:transform .3s}
 .tile:hover .plus{transform:rotate(90deg)}
 @media (max-width:760px){.grid{grid-template-columns:1fr}.tile,.tile.wide{grid-column:auto;aspect-ratio:16/9}}
+/* reviews */
+.reviews{max-width:1100px;margin:0 auto;padding:4vh 20px 4vh}
+.reviews h2{font-size:clamp(1.9rem,4.5vw,3rem);line-height:1}
+.reviews .sub{color:var(--mute);margin:12px 0 28px}.reviews .stars{color:#F5B400;letter-spacing:2px;margin-right:6px}
+.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rgrid figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:26px;display:flex;flex-direction:column;justify-content:space-between;gap:18px}
+.rgrid blockquote{margin:0;font:500 1.15rem/1.4 "Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.01em}
+.rgrid figcaption{color:var(--mute);font-size:.88rem}
+.rlink{display:inline-block;margin-top:22px;color:var(--blue);text-decoration:none}.rlink:hover{text-decoration:underline}
+@media (max-width:860px){.rgrid{grid-template-columns:1fr}}
+.me{display:block;width:120px;height:120px;object-fit:cover;border-radius:50%;margin:0 0 18px;box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--line)}
+.about a{color:var(--blue)}
+@media (max-width:760px){.me{width:96px;height:96px}}
 /* about */
 .about{max-width:1100px;margin:0 auto;padding:0 20px 12vh;display:grid;grid-template-columns:1fr 2fr;gap:36px}
 .about h2{font-size:clamp(2.2rem,6vw,4rem);line-height:1}
@@ -67,7 +89,7 @@ background-color:hsl(var(--h) 45% 14%);background-image:radial-gradient(60% 70% 
 .about .note{color:var(--mute);font-size:1rem}
 @media (max-width:760px){.about{grid-template-columns:1fr;gap:14px}}
 /* categories */
-.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:34px}
+.cats{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:34px}.cats .cat{padding:22px;min-height:190px}.cats .cat h3{font-size:clamp(1.2rem,1.9vw,1.5rem)}.cats .cat p{font-size:.86rem}
 .cat{border:0;border-radius:28px;padding:26px;min-height:200px;text-align:left;color:#fff;cursor:pointer;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;opacity:.62;transform:scale(.97);transition:opacity .35s,transform .35s,box-shadow .35s;
 background-color:hsl(var(--h) 45% 14%);background-image:radial-gradient(70% 80% at 10% 0%,hsl(var(--h) 85% 55%),transparent 70%),radial-gradient(60% 70% at 100% 100%,hsl(calc(var(--h) + 45) 75% 42%),transparent 70%)}
 .cat:hover{opacity:.9}
@@ -90,7 +112,7 @@ html.static #hero{height:auto}html.static .stick{position:relative;top:0;height:
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-in{animation:none}*{transition:none!important}.tile,.hero-in{transform:none!important;opacity:1!important}.say span{opacity:1}}
 </style>
 
-<nav><b>Shady Onsimos</b><div><a href="#about">About</a><a href="#work" data-cat="evt">Events</a><a href="#work" data-cat="talk">Talking heads</a><a href="#work" data-cat="dip">Diplomatic</a><a href="#work" data-cat="hum">Humanitarian</a><a href="#contact">Contact</a></div></nav>
+<nav><b>Shady Onsimos</b><div><a href="#about">About</a><a href="#work" data-cat="evt">Events</a><a href="#work" data-cat="talk">Talking heads</a><a href="#work" data-cat="dip">Diplomatic</a><a href="#work" data-cat="med">Medical</a><a href="#work" data-cat="hum">Humanitarian</a><a href="#contact">Contact</a></div></nav>
 
 <header id="hero"><div class="stick"><div class="orb"></div>
   <div class="hero-in">
@@ -108,9 +130,9 @@ html.static #hero{height:auto}html.static .stick{position:relative;top:0;height:
 </section>
 
 <section class="about" id="about">
-  <h2>About</h2>
+  <div class="me-col"><img class="me" src="media/shady-round.jpg" alt="Shady Onsimos" width="320" height="320" loading="lazy"><h2>About</h2></div>
   <div>
-    <p>I'm Shady, a senior video editor and videographer with 10 years of experience. I have filmed and edited for embassies, NGOs and global pharmaceutical companies, and I edit online for clients worldwide on Fiverr.</p>
+    <p>I'm Shady, a senior video editor and videographer with 10 years of experience. I have filmed and edited for embassies, NGOs and global pharmaceutical companies, and I edit online for clients worldwide on <a href="https://www.fiverr.com/shadyonsimos" target="_blank" rel="noopener">Fiverr</a>.</p>
     <p class="note">This is a selective portfolio, and more projects are being added.</p>
   </div>
 </section>
@@ -121,14 +143,27 @@ html.static #hero{height:auto}html.static .stick{position:relative;top:0;height:
   <div class="pane" id="p-evt"><p class="sub">Event promos, launch teasers and brand films for clients in the USA, Australia and Europe.</p><div class="grid" id="g-evt"></div></div>
   <div class="pane" id="p-talk"><p class="sub">Podcast episodes, vertical reels with animated captions, and interview films.</p><div class="grid" id="g-talk"></div></div>
   <div class="pane" id="p-dip"><p class="sub">Galas, forums and state visits, executed for Save the Children Egypt and diplomatic partners.</p><div class="grid" id="g-dip"></div></div>
+  <div class="pane" id="p-med"><p class="sub">Patient stories and medical awareness films for global pharmaceutical companies.</p><div class="grid" id="g-med"></div></div>
   <div class="pane" id="p-hum"><p class="sub">Films, workshops and documentation for children and youth programs.</p><div class="grid" id="g-hum"></div></div>
   </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <h2>What clients say</h2>
+  <p class="sub"><span class="stars" aria-hidden="true">★★★★★</span> 5.0 on Fiverr</p>
+  <div class="rgrid">
+    <figure><blockquote>“By far the most talented and professional video editor I've worked with.”</blockquote><figcaption>santideoleo · United States · Repeat client</figcaption></figure>
+    <figure><blockquote>“He delivered high-quality, trendy event recaps that perfectly captured the vibe I wanted.”</blockquote><figcaption>ragymilad · Egypt</figcaption></figure>
+    <figure><blockquote>“Working with Shady was an absolute pleasure from start to finish.”</blockquote><figcaption>marcolof1991 · Egypt</figcaption></figure>
+  </div>
+  <a class="rlink" href="https://www.fiverr.com/shadyonsimos" target="_blank" rel="noopener">See all reviews on Fiverr →</a>
 </section>
 
 <section class="end" id="contact">
   <h2>Let's work<br>together.</h2>
   <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=shadi.onsimos@gmail.com" target="_blank" rel="noopener">Email me</a>
   <a class="btn alt" href="https://wa.me/201227120955" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="btn alt" href="https://www.fiverr.com/shadyonsimos" target="_blank" rel="noopener">Fiverr</a>
 </section>
 
 <dialog id="dlg">
@@ -176,9 +211,15 @@ const PROJECTS = [
   links:[["Watch video","media/damietta-full.mp4"]]},
  {g:"dip",wide:false,pv:true,vertical:true,title:"UNHCR - Canadian Embassy Alexandria Field Visit",desc:"(2026)\nRole: Videographer, Video Editor",thumb:"media/alex.jpg",preview:"media/alex-pv.mp4",
   links:[["Watch video","media/alex-full.mp4"]]},
- {g:"hum",wide:false,title:"UNICEF Egypt: Justice for Children",desc:"Documentation of the Justice for Children program with the Ministry of Justice.",thumb:"media/unicef2.jpg",preview:"media/unicef2-pv.mp4",
+ {g:"med",title:"Rare Stories: Adel's aHUS Journey",desc:"Patient story on atypical hemolytic uremic syndrome, told by Adel's mother and his doctor.\nRole: Videographer, Video Editor",thumb:"media/med1.jpg",preview:"media/med1-pv.mp4",
+  links:[["Watch video","media/med1-full.mp4"]]},
+ {g:"med",title:"Red & Blue for Pulmonary Fibrosis",desc:"Awareness film on pulmonary fibrosis with medical experts.\nRole: Videographer, Video Editor",thumb:"media/med2.jpg",preview:"media/med2-pv.mp4",
+  links:[["Watch video","media/med2-full.mp4"]]},
+ {g:"med",title:"Rare Stories: Living with Myasthenia Gravis",desc:"Patient testimonial on living with generalized myasthenia gravis.\nRole: Videographer, Video Editor",thumb:"media/med3.jpg",preview:"media/med3-pv.mp4",
+  links:[["Watch video","media/med3-full.mp4"]]},
+ {g:"hum",wide:false,title:"UNICEF Egypt: Justice for Children",desc:"Documentation of the Justice for Children program with the Ministry of Justice.\nRole: Videographer, Video Editor",thumb:"media/unicef2.jpg",preview:"media/unicef2-pv.mp4",
   links:[["Watch video","https://www.youtube.com/watch?v=C0V8kJkYcdQ"]]},
- {g:"hum",wide:false,title:"Tdh Egypt and Aramex Experience",desc:"Documentary on vocational training as an alternative to detention for youth.",thumb:"media/tdh2.jpg",preview:"media/tdh2-pv.mp4",
+ {g:"hum",wide:false,title:"Tdh Egypt and Aramex Experience",desc:"Documentary on vocational training as an alternative to detention for youth.\nRole: Videographer, Video Editor",thumb:"media/tdh2.jpg",preview:"media/tdh2-pv.mp4",
   links:[["Watch video","https://www.youtube.com/watch?v=UnR2LSVYyKw"]]},
 /* hidden for now, remove these comment marks to bring it back:
  {g:"hum",wide:true,title:"Education Without Child Labor",desc:"National awareness film made to amplify youth voices on the right to education.",thumb:"",preview:"",
@@ -203,14 +244,14 @@ const emb=l=>{if(/\.mp4$/.test(l[1]))return{video:l[1]};const y=yt(l[1]);if(y)re
 let hoverTile=null;const previewTiles=[];
 function pickActive(){} /* tile previews are driven only by the hover controller further down */
 /* tiles */
-const counts={dip:0,hum:0,evt:0,talk:0};
+const counts={dip:0,hum:0,evt:0,talk:0,med:0};
 PROJECTS.forEach(p=>counts[p.g]++);
-const seen={dip:0,hum:0,evt:0,talk:0};
+const seen={dip:0,hum:0,evt:0,talk:0,med:0};
 PROJECTS.forEach((p,i)=>{
   const idx=seen[p.g]++, n=counts[p.g];
   const t=document.createElement("button");
   t.className="tile"+((p.wide!==undefined?p.wide:(idx%3===0||(idx===n-1&&idx%3===1)))?" wide":"");
-  const hue=({dip:205,hum:160,evt:275,talk:20})[p.g]+idx*14;
+  const hue=({dip:205,hum:160,evt:275,talk:20,med:330})[p.g]+idx*14;
   const poster=document.createElement("div");poster.className="poster";poster.style.setProperty("--h",hue);
   if(p.thumb&&!p.preview)poster.style.backgroundImage=`url("${p.thumb}")`;else if(p.preview)poster.style.backgroundImage="none";
   t.appendChild(poster);
@@ -229,6 +270,7 @@ $("count").dataset.n=PROJECTS.length;
 const CATS={evt:["Events and commercial","Event promos, launch teasers and brand films.",275],
  talk:["Podcasts and talking heads","Podcasts, reels with animated captions and interview films.",20],
  dip:["Diplomatic and ministerial","Galas, forums and state visits for embassies and ministries.",205],
+ med:["Medical and pharmaceutical","Patient stories and awareness films for pharma companies.",330],
  hum:["Humanitarian and social impact","Films and workshops for children and youth programs.",160]};
 const DEFAULT_ORDER=Object.keys(CATS);
 let ready=false;const catBtns={};
