@@ -73,9 +73,9 @@ background-color:hsl(var(--h) 45% 14%);background-image:radial-gradient(60% 70% 
 .reviews{max-width:1100px;margin:0 auto;padding:4vh 20px 4vh}
 .reviews h2{font-size:clamp(1.9rem,4.5vw,3rem);line-height:1}
 .reviews .sub{color:var(--mute);margin:12px 0 28px}.reviews .stars{color:#F5B400;letter-spacing:2px;margin-right:6px}
-.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rgrid{display:grid;grid-template-columns:1fr;gap:20px;max-width:760px}
 .rgrid figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:26px;display:flex;flex-direction:column;justify-content:space-between;gap:18px}
-.rgrid blockquote{margin:0;font:500 1.15rem/1.4 "Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.01em}
+.rgrid blockquote{margin:0;font:500 clamp(1.3rem,2.4vw,1.75rem)/1.35 "Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.01em}
 .rgrid figcaption{color:var(--mute);font-size:.88rem}
 .rlink{display:inline-block;margin-top:22px;color:var(--blue);text-decoration:none}.rlink:hover{text-decoration:underline}
 @media (max-width:860px){.rgrid{grid-template-columns:1fr}}
@@ -153,8 +153,6 @@ html.static #hero{height:auto}html.static .stick{position:relative;top:0;height:
   <p class="sub"><span class="stars" aria-hidden="true">★★★★★</span> 5.0 on Fiverr</p>
   <div class="rgrid">
     <figure><blockquote>“By far the most talented and professional video editor I've worked with.”</blockquote><figcaption>santideoleo · United States · Repeat client</figcaption></figure>
-    <figure><blockquote>“He delivered high-quality, trendy event recaps that perfectly captured the vibe I wanted.”</blockquote><figcaption>ragymilad · Egypt</figcaption></figure>
-    <figure><blockquote>“Working with Shady was an absolute pleasure from start to finish.”</blockquote><figcaption>marcolof1991 · Egypt</figcaption></figure>
   </div>
   <a class="rlink" href="https://www.fiverr.com/shadyonsimos" target="_blank" rel="noopener">See all reviews on Fiverr →</a>
 </section>
